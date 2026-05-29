@@ -1,0 +1,54 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+cache/
+.cache/
+tmp/
+temp/
+dist/
+build/
+node_modules/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_dsa*
+*.kdbx
+*.sqlite
+*.db
+cookies.*
+
+# Installers, packages, archives, and executable binaries
+*.exe
+*.msi
+*.dll
+*.rmskin
+*.zip
+*.rar
+*.7z
+
+# Fonts require explicit license validation before versioning
+*.ttf
+*.otf
+*.woff
+*.woff2
+
+# Rainmeter local/generated folders
+Skins/@Backup/
+Skins/@Vault/
+Skins/NewFolder/
